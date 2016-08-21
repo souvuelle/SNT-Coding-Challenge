@@ -1,0 +1,4 @@
+Create Table Property (id int, name varchar(20), address varchar(20), listprice Double, listingurl varchar(MAX), bedrooms smallint, bathrooms smallint, propertytype varchar(20), listing key int, listingcategory varchar(20), listingstatus varchar(20), photos varchar(MAX), listingdescription varchar(MAX), mlsid int, mlsname varchar(20), mlsnumber int)
+
+ALTER TABLE <Property>
+        ADD CONSTRAINT <id> PRIMARY KEY;
